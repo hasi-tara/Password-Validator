@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.container {
+  background: url(../img/wallpaper.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  border-radius: 20px;
+  width: 360px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid orangered;
+  background-color: azure;
+  box-shadow: 1px 1px 2px #ffc400ef;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+form h1 {
+  color: #0367fd;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin: 32px;
+}
+.input {
+  margin: 4px 0 24px 0;
+  font-size: 1.6rem;
+  border: none;
+  background: none;
+  display: flex;
+  text-align: center;
+  border: 2px solid #2d81ff;
+  widows: 320px;
+  outline: none;
+  border-radius: 24px;
+  transition: all 0.2s ease-in;
+  padding: 8px;
+}
+.input:focus {
+  width: 240px;
+  border-color: #ffc400ec;
+  background-color: white;
+}
+
+.label {
+  color: #0367fd;
+  font-size: 1.2rem;
+}
+
+#btn {
+  margin: 32px auto;
+  text-align: center;
+  border: 3px solid #ffc400ec;
+  padding: 8px 64px;
+  outline: none;
+  font-size: 18px;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  display: flex;
+}
+
+#btn:hover {
+  background-color: #ffc400ca;
+}

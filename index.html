@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login form</title>
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <form action="">
+          <h1>Login</h1>
+          <div>
+            <label class="label" for="name">Username:</label>
+            <input
+              class="input"
+              type="text"
+              placeholder="Enter Username..."
+              id="name"
+            />
+            <span class="error" id="nameError"></span>
+          </div>
+          <div class="email">
+            <label class="label" for="email">Email:</label>
+            <input
+              class="input"
+              placeholder="Enter Email..."
+              id="email"
+            />
+            <span class="error" id="emailError"></span>
+          </div>
+          <div class="password">
+            <label class="label" for="password">Password:</label>
+            <input
+              class="input"
+              type="password"
+              placeholder="Enter Password..."
+              id="password"
+            />
+            <span class="error" id="passwordError"></span>
+          </div>
+          <button id="btn" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/form.js"></script>
+  </body>
+</html>
