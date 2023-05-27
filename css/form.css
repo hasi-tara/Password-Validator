@@ -41,17 +41,17 @@ form h1 {
   display: flex;
   text-align: center;
   border: 2px solid #2d81ff;
-  width: 320px;
+  width: 240px;
   outline: none;
   border-radius: 24px;
   transition: all 0.2s ease-in;
   padding: 8px;
 }
-/* .input:focus {
-  width: 240px;
+.input:focus {
+  width: 260px;
   border-color: #ffc400ec;
   background-color: white;
-} */
+}
 
 .label {
   color: #0367fd;
