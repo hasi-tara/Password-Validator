@@ -41,7 +41,7 @@ form h1 {
   display: flex;
   text-align: center;
   border: 2px solid #2d81ff;
-  widows: 320px;
+  width: 320px;
   outline: none;
   border-radius: 24px;
   transition: all 0.2s ease-in;
